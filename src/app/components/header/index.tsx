@@ -7,7 +7,7 @@ export const Header = (props: HeaderProps) => {
   return (
     <section className="header">
       <div className="h-16 w-full bg-gray-900">
-        <div className="w-full max-w-7xl mx-auto">
+        <div className="w-full max-w-7xl text-gray-50 lg:mx-auto md:px-4 px-2">
           <div className="columns-3 items-center">
             <div className="flex justify-start self-end items-center gap-2 text-xs h-16">
               <div className="h-8 w-8 flex justify-center items-center rounded-full bg-gray-500">
