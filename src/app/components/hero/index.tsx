@@ -1,3 +1,5 @@
+"use client";
+
 interface HeroProps {}
 
 export const Hero = (props: HeroProps) => {
