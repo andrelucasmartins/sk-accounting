@@ -5,7 +5,7 @@ interface HeaderProps {}
 
 export const Header = (props: HeaderProps) => {
   return (
-    <section className="header">
+    <section className="header lg:flex-wrap-reverse  md:flex-wrap-reverse lg:flex-none md:flex-none sm:flex-none ">
       <NavInfo />
       <Navbar />
     </section>
