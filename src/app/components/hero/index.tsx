@@ -4,14 +4,8 @@ interface HeroProps {}
 
 export const Hero = (props: HeroProps) => {
   return (
-    <section className="hero h-[540px] w-full relative">
-      <img
-        src="/images/hero-bg.jpg"
-        alt="SK Accounting - Meeting"
-        className="bg-cover w-full h-full object-cover absolute -z-10 contrast-50 saturate-50
-"
-      />
-      <div className="w-full max-w-7xl  text-gray-950 relative lg:mx-auto md:px-4 px-2">
+    <section className="hero h-[540px] w-full bg-hero-home bg-cover bg-gray-200/30 bg-blend-color-dodge">
+      <div className="w-full max-w-7xl  text-gray-950 lg:mx-auto md:px-4 px-2">
         <div className="py-20 space-y-4">
           <h1 className="text-4xl font-bold select-none">
             Focamos em oferecer <br />

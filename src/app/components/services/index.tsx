@@ -5,6 +5,11 @@ interface ServicesProps {}
 import { BsArrowRightCircle } from "react-icons/bs";
 import { FaRegHandshake } from "react-icons/fa";
 import { GiCoins, GiHumanPyramid } from "react-icons/gi";
+import {
+  PiChartLineUpLight,
+  PiChartPolarLight,
+  PiPresentationChartLight,
+} from "react-icons/pi";
 
 export const Services = (props: ServicesProps) => {
   return (
@@ -82,7 +87,7 @@ export const Services = (props: ServicesProps) => {
           </div>
           <div className=" rounded flex flex-row gap-6 justify-start items-start">
             <div className="bg-gray-200 flex justify-center items-center p-2 rounded">
-              <FaRegHandshake size={30} />
+              <PiChartLineUpLight size={30} />
             </div>
             <div className="space-y-2">
               <h1 className="uppercase text-md font-bold">Fiscal</h1>
@@ -103,7 +108,7 @@ export const Services = (props: ServicesProps) => {
           </div>
           <div className=" rounded flex flex-row gap-6 justify-start items-start">
             <div className="bg-gray-200 flex justify-center items-center p-2 rounded">
-              <FaRegHandshake size={30} />
+              <PiChartPolarLight size={30} />
             </div>
             <div className="space-y-2">
               <h1 className="uppercase text-md font-bold">Societário</h1>
@@ -124,7 +129,7 @@ export const Services = (props: ServicesProps) => {
           </div>
           <div className=" rounded flex flex-row gap-6 justify-start items-start">
             <div className="bg-gray-200 flex justify-center items-center p-2 rounded">
-              <FaRegHandshake size={30} />
+              <PiPresentationChartLight size={30} />
             </div>
             <div className="space-y-2">
               <h1 className="uppercase text-md font-bold">
