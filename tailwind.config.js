@@ -12,8 +12,8 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 
-        "websites-info": "url(/images/websites-info-bg.jpg)",
-        "hero-home": "url(/images/hero-bg.jpg)",
+        "websites-info": "url('/images/websites-info-bg.jpg')",
+        "hero-home": "url('/images/hero-bg.jpg')",
       },
     },
   },
